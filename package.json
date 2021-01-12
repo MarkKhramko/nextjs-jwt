@@ -1,0 +1,27 @@
+{
+	"name": "nextjs-jwt",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@headlessui/react": "^0.2.0",
+		"autoprefixer": "^10.1.0",
+		"axios": "^0.21.0",
+		"cookies": "^0.8.0",
+		"http-proxy": "^1.18.1",
+		"next": "10.0.3",
+		"nprogress": "^0.2.0",
+		"postcss": "^8.1.7",
+		"react": "17.0.1",
+		"react-dom": "17.0.1",
+		"tailwindcss": "^2.0.1",
+		"universal-cookie": "^4.0.4"
+	},
+	"devDependencies": {
+		"babel-plugin-module-resolver": "^4.0.0"
+	}
+}
