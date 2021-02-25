@@ -1,8 +1,6 @@
-# Next.js boilerplate with JWT Authentication
+# [Next.js](https://nextjs.org/) boilerplate with JWT Authentication.
 
-## And [Tailwind UI](https://tailwindui.com/components)
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## And [Tailwind styling](https://tailwindcss.com/)
 
 ## Install and Use
 
@@ -17,7 +15,7 @@ then use [npm](https://www.npmjs.com/) to
 
 ```sh
 # cd into project root
-# ...
+$ cd nextjs-jwt
 # Install dependencies
 $ npm install
 # Start development server
@@ -26,7 +24,41 @@ $ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
+
+## Directory Structure
+
+...
+
+## Components Hierarchy
+
+![png](/for-readme/HTML5-Periodic-table.png)
+[Original](http://smm.zoomquiet.top/data/20110511083224/index.html)
+
+### Protos
+
+* Reactive () and stateless;
+* Children can only be **Text-level semantics**;
+* Highly customizable.
+
+### Corpos
+
+* Active () and stateful;
+* Children can only be **Protos** components;
+* Mildly customizable.
+
+### Pages
+
+* Children can be any component, except **Page**;
+* Non-customizable, must exist in a single instance.
+
+### Metas
+
+* Reactive () and stateless;
+* Can't have children;
+* Can be highly customizable.
+
+
+## About Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -41,6 +73,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## LICENSE
+## License
 
 MIT 2021-present © Mark Khramko
